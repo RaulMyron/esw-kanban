@@ -1,0 +1,11 @@
+body { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 11pt; line-height: 1.5; color: #1a1a1a; }
+h1 { font-size: 20pt; border-bottom: 2px solid #2c5f8a; padding-bottom: 4px; color: #2c5f8a; }
+h2 { font-size: 15pt; color: #2c5f8a; margin-top: 1.2em; }
+h3 { font-size: 12.5pt; color: #333; }
+table { border-collapse: collapse; width: 100%; margin: 0.6em 0; font-size: 10pt; }
+th, td { border: 1px solid #bbb; padding: 5px 8px; text-align: left; vertical-align: top; }
+th { background: #eaf1f7; }
+code { background: #f4f4f4; padding: 1px 4px; border-radius: 3px; font-family: "DejaVu Sans Mono", monospace; font-size: 9.5pt; }
+pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; font-size: 9pt; }
+pre code { background: none; }
+blockquote { border-left: 3px solid #2c5f8a; margin-left: 0; padding-left: 12px; color: #555; }

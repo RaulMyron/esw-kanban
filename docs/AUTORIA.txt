@@ -1,0 +1,19 @@
+Artefatos por integrante (instrucao 6 do trabalho)
+
+Raul Myron Silva Amorim (200049712):
+- Requisitos nao-funcionais (system-wide)
+- Architecture Notebook
+- Infraestrutura de implantacao
+- Prototipo: nucleo, persistencia e metricas
+
+Atila Sousa Fernandes (231013510):
+- Historias de usuario
+- Projeto fisico do banco de dados
+- Projeto de interface (storyboard/wireframes)
+- Prototipo: interface e fluxos CRUD
+- Video de teste de sistema
+
+Ambos:
+- Documento de visao
+- Descricao do processo de gerencia (Kanban)
+- Revisao, PDFs, ZIP e entrega
