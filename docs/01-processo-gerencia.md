@@ -1,4 +1,4 @@
-# FluxBoard
+# ParaFazer
 
 ## Descrição do Processo de Gerenciamento do Projeto
 
@@ -31,7 +31,7 @@ limite, prioridade e descrição.
 | ID | Nome | Responsável | Data limite | Prioridade | Descrição |
 | --- | --- | --- | --- | --- | --- |
 | K01 | Setup do repositório e quadro Kanban | Ambos | Sáb 30/05 | Alta | Criar repositório Git, estrutura de pastas e quadro Kanban com colunas e raias. |
-| K02 | Documento de Visão | Ambos | Sáb 30/05 | Alta | Elaborar o documento de visão e escopo do FluxBoard. |
+| K02 | Documento de Visão | Ambos | Sáb 30/05 | Alta | Elaborar o documento de visão e escopo do ParaFazer. |
 | K03 | Histórias de usuário | Atila | Sáb 30/05 | Alta | Especificar os requisitos funcionais como histórias de usuário (Como/Eu quero/Para). |
 | K04 | Requisitos não-funcionais | Raul | Sáb 30/05 | Alta | Especificar requisitos system-wide (qualidades, interfaces, normas, restrições). |
 | K05 | Projeto físico do banco de dados | Atila | Dom 31/05 | Média | Diagrama e descrição textual das tabelas, chaves e relacionamentos. |

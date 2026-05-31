@@ -1,10 +1,10 @@
-# FluxBoard
+# ParaFazer
 
 ## Projeto Físico do Banco de Dados
 
 ### 1. Introdução
 
-Este documento descreve o projeto físico do banco de dados relacional do FluxBoard, composto
+Este documento descreve o projeto físico do banco de dados relacional do ParaFazer, composto
 por diagrama e descrição textual de cada tabela, suas colunas, chaves e relacionamentos.
 
 ### 2. Diagrama Entidade-Relacionamento (lógico)

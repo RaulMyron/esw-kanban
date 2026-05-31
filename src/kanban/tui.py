@@ -1,4 +1,4 @@
-"""Interface de texto (TUI) do FluxBoard."""
+"""Interface de texto (TUI) do ParaFazer."""
 from . import services as svc
 from . import metrics
 from .db import init_db
@@ -9,7 +9,7 @@ def _input(msg):
 
 
 def tela_login():
-    print("\n=== FluxBoard ===")
+    print("\n=== ParaFazer ===")
     print("1) Entrar   2) Criar conta   0) Sair")
     op = _input("> ")
     if op == "2":

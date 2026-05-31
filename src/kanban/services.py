@@ -1,4 +1,4 @@
-"""Camada de serviços: casos de uso e regras de negócio do FluxBoard."""
+"""Camada de serviços: casos de uso e regras de negócio do ParaFazer."""
 import hashlib
 import os
 from datetime import datetime, timezone

@@ -1,4 +1,4 @@
-# FluxBoard
+# ParaFazer
 
 ## Projeto de Interface com o Usuário — Storyboards e Wireframes
 
@@ -15,7 +15,7 @@ composto por uma sequência de wireframes. Os wireframes são esboços simples d
 
 ```
 +-------------------------------------------+
-|                FluxBoard                  |
+|                ParaFazer                  |
 |-------------------------------------------|
 |   E-mail:    [_____________________]      |
 |   Senha:     [_____________________]      |
@@ -28,7 +28,7 @@ composto por uma sequência de wireframes. Os wireframes são esboços simples d
 
 ```
 +-------------------------------------------+
-|  FluxBoard            usuario@exemplo.com |
+|  ParaFazer            usuario@exemplo.com |
 |-------------------------------------------|
 |  Meus projetos                            |
 |   > Projeto Alpha                         |

@@ -19,7 +19,7 @@ def seed():
     assert svc.autenticar("raul@exemplo.com", "errada") is None
 
     # US03: projeto
-    proj = svc.criar_projeto("FluxBoard", "Trabalho de ESW", raul)
+    proj = svc.criar_projeto("ParaFazer", "Trabalho de ESW", raul)
 
     # US04: quadro (cria A FAZER/FAZENDO/FEITO automaticamente)
     quadro = svc.criar_quadro(proj, "Quadro Principal")

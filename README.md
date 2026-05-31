@@ -1,4 +1,4 @@
-# FluxBoard — Sistema de Gestão de Projetos com método Kanban
+# ParaFazer — Sistema de Gestão de Projetos com método Kanban
 
 Trabalho prático da disciplina de **Engenharia de Software**.
 
@@ -11,7 +11,7 @@ Trabalho prático da disciplina de **Engenharia de Software**.
 
 ## O que é
 
-FluxBoard é um sistema de software para gestão de projetos baseada no **método Kanban**.
+ParaFazer é um sistema de software para gestão de projetos baseada no **método Kanban**.
 Cada usuário cria conta, autentica-se e participa de um ou mais projetos. Em cada projeto há
 quadros compostos pelas colunas **A FAZER**, **FAZENDO** e **FEITO**, organizados em raias
 (swimlanes), com cartões de atividade, limite de WIP por coluna e cálculo das métricas

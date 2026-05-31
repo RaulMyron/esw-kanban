@@ -1,10 +1,10 @@
-# FluxBoard
+# ParaFazer
 
 ## Especificação de Requisitos System-Wide (Requisitos Não-Funcionais)
 
 ### 1. Introdução
 
-Este documento especifica os requisitos não-funcionais do FluxBoard, organizados segundo a
+Este documento especifica os requisitos não-funcionais do ParaFazer, organizados segundo a
 classificação **FURPS+** (usabilidade, confiabilidade, desempenho, suportabilidade e demais
 requisitos de interface, restrições e conformidade). Complementa as histórias de usuário, que
 tratam dos requisitos funcionais.

@@ -2,7 +2,7 @@
 import sqlite3
 import os
 
-DB_PATH = os.environ.get("FLUXBOARD_DB", os.path.join(os.path.dirname(__file__), "..", "fluxboard.db"))
+DB_PATH = os.environ.get("PARAFAZER_DB", os.path.join(os.path.dirname(__file__), "..", "parafazer.db"))
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS usuario (

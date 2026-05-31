@@ -1,11 +1,11 @@
-# FluxBoard
+# ParaFazer
 
 ## Descrição da Infraestrutura de Implantação
 
 ### 1. Introdução
 
 Este documento descreve o hardware, o software e os serviços necessários para colocar o
-FluxBoard em produção. O protótipo roda localmente; esta seção projeta o ambiente de produção
+ParaFazer em produção. O protótipo roda localmente; esta seção projeta o ambiente de produção
 adotando uma abordagem baseada em contêineres e serviços gerenciados em nuvem.
 
 ### 2. Software

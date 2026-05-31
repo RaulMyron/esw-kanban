@@ -1,10 +1,10 @@
-# FluxBoard
+# ParaFazer
 
 ## Documento de Visão
 
 ### 1. Introdução
 
-Este documento define a visão e o escopo do **FluxBoard**, um sistema de software para gestão
+Este documento define a visão e o escopo do **ParaFazer**, um sistema de software para gestão
 de projetos baseada no método Kanban. Descreve o problema a ser resolvido, as partes
 interessadas, o ambiente dos usuários, as funcionalidades de alto nível e os requisitos de
 qualidade que orientam o desenvolvimento.
@@ -26,7 +26,7 @@ qualidade que orientam o desenvolvimento.
 | --- | --- |
 | Para | equipes que gerenciam trabalho de forma contínua e incremental |
 | Que | precisam visualizar e controlar o fluxo de atividades |
-| O FluxBoard | é um sistema de gestão de projetos baseado em Kanban |
+| O ParaFazer | é um sistema de gestão de projetos baseado em Kanban |
 | Que | torna o fluxo visível, impõe limites de WIP e mede cycle time, lead time, throughput e WIP |
 | Diferentemente de | planilhas e listas de tarefas simples |
 | Nosso produto | oferece quadros com raias, regras de fluxo e métricas calculadas automaticamente |
@@ -77,7 +77,7 @@ persistência das informações.
 
 ### 6. Solução Proposta (resumo)
 
-O FluxBoard é estruturado em camadas (apresentação, aplicação/serviços, domínio e
+O ParaFazer é estruturado em camadas (apresentação, aplicação/serviços, domínio e
 persistência). O núcleo de domínio é independente da interface, permitindo tanto uma interface
 textual quanto gráfica. A persistência usa banco de dados relacional. As métricas são
 calculadas a partir do histórico de movimentação dos cartões, registrado com data e hora.

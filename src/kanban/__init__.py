@@ -1,1 +1,1 @@
-"""FluxBoard - núcleo do sistema de gestão de projetos com método Kanban."""
+"""ParaFazer - núcleo do sistema de gestão de projetos com método Kanban."""

@@ -1,10 +1,10 @@
-# FluxBoard
+# ParaFazer
 
 ## Architecture Notebook
 
 ### 1. Propósito
 
-Este documento descreve a arquitetura do FluxBoard: objetivos, suposições, dependências,
+Este documento descreve a arquitetura do ParaFazer: objetivos, suposições, dependências,
 requisitos arquiteturalmente significativos, decisões, mecanismos, abstrações-chave, camadas e
 visões. Serve de guia para a construção e a evolução do sistema.
 
