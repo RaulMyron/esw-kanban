@@ -7,21 +7,22 @@
 O gerenciamento deste trabalho adota o **método Kanban**, em coerência com o domínio do
 sistema desenvolvido. O objetivo é visualizar o fluxo de trabalho, limitar o trabalho em
 progresso e entregar os artefatos de forma incremental dentro do prazo. O quadro foi mantido
-em uma ferramenta com suporte a colunas e cartões (GitHub Projects), com versionamento dos
-artefatos no repositório Git.
+no **GitHub Projects (ParaFazer Board)**, integrado ao repositório Git para controle de versão
+dos artefatos.
 
 ### 2. Quadro Kanban
 
-O quadro é composto por três colunas, conforme o fluxo do trabalho, e por uma raia (swimlane)
-por integrante, de modo a tornar visível a responsabilidade de cada cartão.
+O quadro é composto por três colunas e utiliza o campo **Responsável** como raia (swimlane),
+tornando visível a distribuição do trabalho entre os integrantes.
 
 | Coluna | Propósito |
 | --- | --- |
 | **A FAZER** | Cartões planejados e priorizados, ainda não iniciados. Representa o backlog comprometido para esta entrega. |
-| **FAZENDO** | Cartões em execução. Limitado a no máximo 2 cartões por integrante (limite de WIP), para evitar dispersão e reduzir o *cycle time*. |
+| **FAZENDO** | Cartões em execução. Limitado a no máximo 2 cartões por integrante (limite de WIP = 2), para evitar dispersão e reduzir o *cycle time*. |
 | **FEITO** | Cartões concluídos e revisados (ortografia, aderência ao template e aos critérios de avaliação). |
 
-**Raias (swimlanes):** `Raul`, `Atila` e `Ambos` (cartões compartilhados).
+**Raias (swimlanes):** `Raul`, `Atila` e `Ambos` (cartões compartilhados), configuradas via
+**Group by → Responsável** no layout de board do GitHub Projects.
 
 ### 3. Cartões
 
@@ -44,11 +45,20 @@ limite, prioridade e descrição.
 | K12 | Descrição do processo de gerência | Ambos | Seg 01/06 | Média | Consolidar este documento com prints do quadro final. |
 | K13 | Revisão, PDFs, ZIP e entrega | Ambos | Seg 01/06 | Alta | Revisar artefatos, exportar PDFs, montar e testar o ZIP, enviar no prazo. |
 
-### 4. Métricas de fluxo acompanhadas
+### 4. Estado inicial do quadro
+
+Print tirado no início do trabalho, com todos os cartões criados e os primeiros artefatos
+já marcados como concluídos.
+
+
+### 5. Estado atual do quadro
+
+Print tirado após a conclusão dos artefatos de documentação e do núcleo do protótipo.
+
+
+### 6. Métricas de fluxo acompanhadas
 
 - **Work-in-progress (WIP):** número de cartões simultâneos em FAZENDO (limite = 2 por integrante).
 - **Throughput:** cartões concluídos por dia.
 - **Lead time:** tempo entre a entrada do cartão em A FAZER e a chegada em FEITO.
 - **Cycle time:** tempo entre o início do trabalho (FAZENDO) e a conclusão (FEITO).
-
-> **A inserir na entrega final:** capturas de tela do quadro Kanban no início e no fim do trabalho.
