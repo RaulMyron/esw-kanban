@@ -2,7 +2,9 @@
 import sqlite3
 import os
 
-DB_PATH = os.environ.get("PARAFAZER_DB", os.path.join(os.path.dirname(__file__), "..", "parafazer.db"))
+DB_PATH = os.path.abspath(os.environ.get(
+    "PARAFAZER_DB",
+    os.path.join(os.path.dirname(__file__), "..", "parafazer.db")))
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS usuario (
@@ -81,3 +83,14 @@ def init_db():
     conn.executescript(SCHEMA)
     conn.commit()
     conn.close()
+
+
+def reset_db():
+    """Apaga TODAS as tabelas e recria o esquema vazio."""
+    conn = get_connection()
+    for t in ["movimentacao_cartao", "cartao", "raia", "coluna",
+              "quadro", "participacao", "projeto", "usuario"]:
+        conn.execute(f"DROP TABLE IF EXISTS {t}")
+    conn.commit()
+    conn.close()
+    init_db()

@@ -20,6 +20,8 @@ def seed():
 
     # US03: projeto
     proj = svc.criar_projeto("ParaFazer", "Trabalho de ESW", raul)
+    # ambos participam do projeto (senão o atila veria a lista vazia)
+    svc.adicionar_participante(atila, proj, "membro")
 
     # US04: quadro (cria A FAZER/FAZENDO/FEITO automaticamente)
     quadro = svc.criar_quadro(proj, "Quadro Principal")
@@ -46,6 +48,9 @@ def seed():
 
     print("Banco de demonstração criado em:", DB_PATH)
     print("Métricas iniciais:", metrics.metricas_quadro(quadro))
+    print("\nLogins de demonstração (senha: 123456):")
+    print("  raul@exemplo.com")
+    print("  atila@exemplo.com")
 
 
 if __name__ == "__main__":

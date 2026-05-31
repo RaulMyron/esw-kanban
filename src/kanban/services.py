@@ -70,6 +70,14 @@ def criar_projeto(nome, descricao, usuario_id):
     return projeto_id
 
 
+def adicionar_participante(usuario_id, projeto_id, papel="membro"):
+    conn = get_connection()
+    conn.execute("INSERT OR IGNORE INTO participacao (usuario_id, projeto_id, papel) "
+                 "VALUES (?,?,?)", (usuario_id, projeto_id, papel))
+    conn.commit()
+    conn.close()
+
+
 def projetos_do_usuario(usuario_id):
     conn = get_connection()
     rows = conn.execute(

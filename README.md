@@ -35,11 +35,24 @@ video/   Vídeo do teste de sistema (link/arquivo)
 
 ```bash
 cd src
-python3 seed.py        # cria banco de demonstração (opcional)
+python3 seed.py        # cria banco de demonstração (opcional, zera o banco)
 python3 main.py        # inicia a interface de texto
 ```
 
-Requer apenas Python 3.10+ (somente biblioteca padrão).
+Requer apenas Python 3.10+ (somente biblioteca padrão). Os dados são persistidos
+em `src/parafazer.db` (SQLite) e permanecem entre execuções.
+
+### Credenciais de demonstração
+
+Após rodar `seed.py`, use um destes logins (senha **`123456`**):
+
+| E-mail | Papel |
+| --- | --- |
+| `raul@exemplo.com` | líder do projeto |
+| `atila@exemplo.com` | membro |
+
+> Atenção: `seed.py` **zera o banco** a cada execução. Rode-o uma vez antes de gravar;
+> depois disso use apenas `main.py` para não apagar os dados criados.
 
 ## Como gerar os PDFs a partir dos Markdown
 

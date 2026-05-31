@@ -14,4 +14,4 @@ cenário de sucesso para CADA serviço:
 9. Definir limite de WIP (mostrar o bloqueio)
 10. Calcular métricas
 
-Dica: rode `python3 seed.py` antes para já ter dados na tela.
+Dica: Rodando `python3 seed.py` já teremos dados na tela.
