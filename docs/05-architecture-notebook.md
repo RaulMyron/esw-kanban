@@ -80,8 +80,9 @@ a persistência. O domínio não conhece a apresentação.
 ### 9. Visões da arquitetura
 
 - **Visão lógica:** entidades de domínio e suas relações (ver projeto físico do BD).
-- **Visão de implementação:** pacote `kanban` com módulos `db`, `models`, `services`,
-  `metrics` e `tui`.
+- **Visão de implementação:** pacote `kanban` com os módulos `db` (persistência),
+  `services` (regras de negócio), `metrics` (métricas), `ui` (apresentação) e
+  `tui` (interface de texto).
 - **Visão de implantação:** ver documento de infraestrutura.
 
 ### 10. Impacto das ferramentas usadas
