@@ -29,7 +29,7 @@ Cada passo cobre um serviço exigido. As teclas (`c`, `m`, `s`...) são as do me
 | --- | --- | --- |
 | 1 | **Criar conta** (US01) | Tela inicial → `2`. Nome: `Maria`, e-mail: `maria@exemplo.com`, senha: `123456`. Aparece "Conta criada". |
 | 2 | **Autenticar** (US02) | Tela inicial → `1`. E-mail `raul@exemplo.com`, senha `123456`. (Mostre antes uma senha errada → "Credenciais inválidas".) |
-| 3 | **Participar de projeto** (US03) | Aparece a lista com o projeto `ParaFazer`. Digite o número dele para abrir. |
+| 3 | **Participar de projeto** (US03) | Aparece a lista com o projeto `ParaFazer`; abra-o. Para reforçar: dentro do projeto use `a` (add membro), digite o e-mail de outra conta (ex.: `maria@exemplo.com`) → "X adicionado ao projeto". Depois logue com essa conta e mostre que o projeto aparece pra ela. |
 | 4 | **CRUD de quadro** (US04) | Em "Quadros": `n` e crie `Quadro Demo` (note que A FAZER/FAZENDO/FEITO são criadas sozinhas). Depois abra o `Quadro Principal` (que já tem cartões). |
 | 5 | **CRUD de raia** (US05) | No quadro: `r` e crie a raia `Frontend`. |
 | 6 | **CRUD de cartão** (US06) | `c` para criar `Nova tela` (prioridade `alta`). Mostre também `e` (editar) o nome do cartão. |

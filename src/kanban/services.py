@@ -78,6 +78,31 @@ def adicionar_participante(usuario_id, projeto_id, papel="membro"):
     conn.close()
 
 
+def usuario_por_email(email):
+    conn = get_connection()
+    row = conn.execute("SELECT * FROM usuario WHERE email = ?", (email,)).fetchone()
+    conn.close()
+    return dict(row) if row else None
+
+
+def adicionar_membro_por_email(projeto_id, email, papel="membro"):
+    u = usuario_por_email(email)
+    if not u:
+        raise RegraNegocioError(f"Nenhum usuário com o e-mail {email}.")
+    adicionar_participante(u["id"], projeto_id, papel)
+    return u
+
+
+def participantes_do_projeto(projeto_id):
+    conn = get_connection()
+    rows = conn.execute(
+        "SELECT u.nome, u.email, pa.papel FROM participacao pa "
+        "JOIN usuario u ON u.id = pa.usuario_id WHERE pa.projeto_id = ? ORDER BY u.id",
+        (projeto_id,)).fetchall()
+    conn.close()
+    return [dict(r) for r in rows]
+
+
 def projetos_do_usuario(usuario_id):
     conn = get_connection()
     rows = conn.execute(

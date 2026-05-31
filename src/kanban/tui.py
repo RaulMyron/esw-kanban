@@ -67,13 +67,25 @@ def tela_quadros(usuario, projeto_id):
         print(ui.titulo(f"Quadros do projeto {projeto_id}"))
         for q in svc.listar_quadros(projeto_id):
             print(f"  {ui.cyan('[' + str(q['id']) + ']')} {q['nome']}")
-        print(ui.menu([("nº", "abrir"), ("n", "novo quadro"),
+        membros = svc.participantes_do_projeto(projeto_id)
+        print(ui.dim("  Membros: " + ", ".join(
+            f"{m['nome']} ({m['papel']})" for m in membros)))
+        print(ui.menu([("nº", "abrir"), ("n", "novo quadro"), ("a", "add membro"),
                        ("x", "excluir quadro"), ("v", "voltar")]))
         op = _menu("")
         if op == "v":
             return
         if op == "n":
             svc.criar_quadro(projeto_id, _input("Nome do quadro: "))
+            continue
+        if op == "a":
+            email = _input("E-mail do membro: ")
+            papel = _input("Papel (membro/lider) [membro]: ") or "membro"
+            try:
+                u = svc.adicionar_membro_por_email(projeto_id, email, papel)
+                print(ui.ok(f"{u['nome']} adicionado ao projeto."))
+            except svc.RegraNegocioError as e:
+                print(ui.erro(str(e)))
             continue
         if op == "x":
             qid = _input("ID do quadro a excluir: ")
