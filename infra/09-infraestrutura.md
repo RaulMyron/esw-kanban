@@ -41,21 +41,8 @@ adotando uma abordagem baseada em contêineres e serviços gerenciados em nuvem.
 
 ### 5. Topologia de implantação (visão)
 
-```
-[ Cliente / Navegador ]
-          | HTTPS
-          v
-[ Proxy reverso / Balanceador ]
-          |
-          v
-[ Réplicas da Aplicação (contêineres) ]
-          |
-          v
-[ Banco de dados gerenciado (PostgreSQL) ] --- [ Armazenamento de objetos ]
-          ^
-          |
-[ Monitoramento/Logs ]   [ CI/CD ]   [ Registro de contêineres ]
-```
+![Hierarquia](Diagrama_3.png)
+
 
 ### 6. Considerações
 

@@ -9,19 +9,8 @@ por diagrama e descrição textual de cada tabela, suas colunas, chaves e relaci
 
 ### 2. Diagrama Entidade-Relacionamento (lógico)
 
-```mermaid
-erDiagram
-    USUARIO ||--o{ PARTICIPACAO : tem
-    PROJETO ||--o{ PARTICIPACAO : tem
-    PROJETO ||--o{ QUADRO : contem
-    QUADRO  ||--o{ COLUNA : contem
-    QUADRO  ||--o{ RAIA : contem
-    QUADRO  ||--o{ CARTAO : contem
-    COLUNA  ||--o{ CARTAO : posiciona
-    RAIA    ||--o{ CARTAO : posiciona
-    USUARIO ||--o{ CARTAO : responsavel
-    CARTAO  ||--o{ MOVIMENTACAO_CARTAO : registra
-```
+![Hierarquia](Diagrama_2.png)
+
 
 > Relação textual: um `USUARIO` participa de vários `PROJETO` e vice-versa (N:N via
 > `PARTICIPACAO`). Um `PROJETO` possui vários `QUADRO`. Um `QUADRO` possui várias `COLUNA`,

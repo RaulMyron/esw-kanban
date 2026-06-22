@@ -47,14 +47,13 @@ limite, prioridade e descrição.
 
 ### 4. Estado inicial do quadro
 
-Print tirado no início do trabalho, com todos os cartões criados e os primeiros artefatos
-já marcados como concluídos.
+![Estado Inicial](board-estado-inicial.png)
+
 
 
 ### 5. Estado atual do quadro
 
-Print tirado após a conclusão dos artefatos de documentação e do núcleo do protótipo.
-
+![Estado Atual](board-estado-atual.png)
 
 ### 6. Métricas de fluxo acompanhadas
 

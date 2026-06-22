@@ -13,23 +13,11 @@ qualidade que orientam o desenvolvimento.
 
 #### 2.1 Definição do Problema
 
-| Item | Descrição |
-| --- | --- |
-| O problema de | falta de visibilidade do fluxo de trabalho e de controle do trabalho em progresso em equipes |
-| afeta | membros de equipes de projeto, líderes e demais partes interessadas |
-| cujo impacto é | gargalos não detectados, sobrecarga, atrasos e dificuldade de medir o desempenho do processo |
-| uma solução de sucesso seria | uma ferramenta que torne o fluxo visível, limite o trabalho em progresso e calcule métricas objetivas de fluxo |
+O problema de falta de visibilidade do fluxo de trabalho e de controle do trabalho em progresso em equipes afeta membros de equipes de projeto, líderes e demais partes interessadas, cujo impacto é gargalos não detectados, sobrecarga, atrasos e dificuldade de medir o desempenho do processo. Uma solução de sucesso seria uma ferramenta que torne o fluxo visível, limite o trabalho em progresso e calcule métricas objetivas de fluxo.
 
 #### 2.2 Posicionamento do Produto
 
-| Item | Descrição |
-| --- | --- |
-| Para | equipes que gerenciam trabalho de forma contínua e incremental |
-| Que | precisam visualizar e controlar o fluxo de atividades |
-| O ParaFazer | é um sistema de gestão de projetos baseado em Kanban |
-| Que | torna o fluxo visível, impõe limites de WIP e mede cycle time, lead time, throughput e WIP |
-| Diferentemente de | planilhas e listas de tarefas simples |
-| Nosso produto | oferece quadros com raias, regras de fluxo e métricas calculadas automaticamente |
+Para equipes que gerenciam trabalho de forma contínua e incremental, que precisam visualizar e controlar o fluxo de atividades, o ParaFazer é um sistema de gestão de projetos baseado em Kanban que torna o fluxo visível, impõe limites de WIP e mede cycle time, lead time, throughput e WIP. Diferentemente de planilhas e listas de tarefas simples, nosso produto oferece quadros com raias, regras de fluxo e métricas calculadas automaticamente.
 
 ### 3. Descrição das Partes Interessadas
 

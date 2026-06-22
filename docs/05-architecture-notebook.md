@@ -62,17 +62,8 @@ descrito nos requisitos.
 
 ### 8. Camadas
 
-```
-+--------------------------------------------------+
-|  Apresentação (TUI no protótipo; GUI/web futura) |
-+--------------------------------------------------+
-|  Aplicação / Serviços (casos de uso)             |
-+--------------------------------------------------+
-|  Domínio (entidades e regras de negócio)         |
-+--------------------------------------------------+
-|  Persistência (acesso a dados / SGBD)            |
-+--------------------------------------------------+
-```
+![Hierarquia](Diagrama_1.png)
+
 
 A dependência é sempre de cima para baixo: a apresentação chama serviços, que usam o domínio e
 a persistência. O domínio não conhece a apresentação.
