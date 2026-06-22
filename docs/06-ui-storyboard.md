@@ -103,5 +103,3 @@ composto por uma sequência de wireframes. Os wireframes são esboços simples d
 
 ---
 
-> **A inserir na entrega final:** versões desenhadas dos wireframes (ferramenta de wireframe ou
-> esboço à mão digitalizado), caso o professor prefira além do esboço textual acima.
