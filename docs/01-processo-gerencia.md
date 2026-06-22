@@ -47,13 +47,13 @@ limite, prioridade e descrição.
 
 ### 4. Estado inicial do quadro
 
-![Estado Inicial](images\board-estado-atual.png)
+![Estado Atual](../images/board-estado-inicial.png)
 
 
 
 ### 5. Estado atual do quadro
 
-![Estado Atual](images\board-estado-atual.png)
+![Estado Atual](../images/board-estado-atual.png)
 
 ### 6. Métricas de fluxo acompanhadas
 

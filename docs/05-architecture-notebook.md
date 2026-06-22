@@ -62,7 +62,7 @@ descrito nos requisitos.
 
 ### 8. Camadas
 
-![Hierarquia](images\Diagrama_1.png)
+![Hierarquia](../images/Diagrama_1.png)
 
 
 A dependência é sempre de cima para baixo: a apresentação chama serviços, que usam o domínio e

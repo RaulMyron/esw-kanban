@@ -9,8 +9,7 @@ por diagrama e descrição textual de cada tabela, suas colunas, chaves e relaci
 
 ### 2. Diagrama Entidade-Relacionamento (lógico)
 
-![Hierarquia](images\Diagrama_2.png)
-
+![Hierarquia](../images/Diagrama_2.png)
 
 > Relação textual: um `USUARIO` participa de vários `PROJETO` e vice-versa (N:N via
 > `PARTICIPACAO`). Um `PROJETO` possui vários `QUADRO`. Um `QUADRO` possui várias `COLUNA`,

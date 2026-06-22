@@ -41,7 +41,7 @@ adotando uma abordagem baseada em contêineres e serviços gerenciados em nuvem.
 
 ### 5. Topologia de implantação (visão)
 
-![Hierarquia](images\Diagrama_3.png)
+![Hierarquia](../images/Diagrama_3.png)
 
 
 ### 6. Considerações
